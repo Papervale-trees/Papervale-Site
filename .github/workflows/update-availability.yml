@@ -1,7 +1,7 @@
 name: Update availability list
 on:
   schedule:
-    - cron: "0 6 * * 1"   # Every Monday at 06:00 UTC
+    - cron: "0 6 * * *"   # Every Monday at 06:00 UTC
   workflow_dispatch:       # Adds a "Run workflow" button on the Actions tab
 permissions:
   contents: write
